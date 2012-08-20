@@ -1,4 +1,40 @@
+img {
+	-ms-interpolation-mode: bicubic;
+}
+
+
 /* form styles */
+button, input[type="button"], input[type="submit"] {
+	overflow: visible;
+}
+
+input[type="checkbox"], input[type="radio"] {
+	width: 13px;
+	height: 13px;
+}
+
 textarea {
 	overflow: auto;
 }
+
+
+/* inline-block */
+.dropdown-toggle {
+	display: inline;
+	zoom: 1;
+}
+
+
+/* :before */
+.elementWithBefore {
+	zoom: expression(runtimeStyle.zoom = 1, insertAdjacentHTML('afterBegin', '<div class="before"></div>'));
+}
+
+.elementWithBefore .before {}
+
+/* :after */
+.elementWithAfter {
+	zoom: expression(runtimeStyle.zoom = 1, insertAdjacentHTML('afterEnd', '<div class="after"></div>'));
+}
+
+.elementWithAfter + .after {}
