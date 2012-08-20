@@ -2,5 +2,259 @@ html, body {
 	min-height: 100%;
 }
 
+body, menu, ul, ol, li, dl, dt, dd, form, fieldset, label, button, input, textarea, select, h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: transparent;
+	color: #000;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+iframe, fieldset, img {
+	border: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+td, th {
+	padding: 0;
+}
+
+th {
+	font-weight: normal;
+	text-align: left;
+}
+
+menu, ul {
+	list-style: none;
+}
+
+ol {
+	list-style-type: decimal;
+	list-style-position: outside;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 30px;
+	line-height: 36px;
+}
+
+h2 {
+	font-size: 24px;
+	line-height: 30px;
+}
+
+h3 {
+	font-size: 18px;
+	line-height: 27px;
+}
+
+h4 {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+h5 {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+h6 {
+	font-size: 12px;
+	text-transform: uppercase;
+	line-height: 18px;
+}
+
+p {
+	padding: 1em 0;
+}
+
+small {
+	font-size: 0.85em;
+}
+
+a {
+	color: #08c;
+}
+
+a:link, a:visited, a:active {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a, button, input, select, textarea {
+	outline: none;
+}
+
+
+/* form styles */
+fieldset {
+	display: block;
+}
+
+button, input, textarea, select {
+	font-family: Arial, sans-serif;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"], textarea {
+	display: inline-block;
+	vertical-align: middle;
+	width: 180px;
+	height: 18px;
+	padding: 4px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	color: #666;
+}
+
+button, input, textarea, select {
+	line-height: normal;
+}
+
+button, input[type="button"], input[type="submit"] {
+	cursor: pointer;
+}
+
+input[type="checkbox"], input[type="radio"] {
+	box-sizing: border-box;
+}
+
+textarea {
+	resize: vertical;
+	vertical-align: top;
+}
+
+select {
+	width: 190px;
+	height: 28px;
+	padding: 4px;
+	border: 1px solid #ccc;
+}
+
+
+/* custom placeholder styles */
+:-moz-placeholder {
+	color: #aaa;
+}
+
+::-webkit-input-placeholder {
+	color: #aaa;
+}
+
+
+/* custom selection colors */
+::-moz-selection {
+	color: #fff;
+	background: #08c;
+}
+
+::selection {
+	color: #fff;
+	background: #08c;
+}
+
+
 /* layout */
-.layout {}
+.layout {
+	width: 998px;
+	margin: 0 auto;
+}
+
+.pull-right {
+	float: right;
+}
+
+
+/* icons */
+[class^='icon-'], [class*=' icon-'] {
+	display: inline-block;
+	vertical-align: middle;
+	width: 16px;
+	height: 16px;
+	background-position: 16px 16px;
+	background-repeat: no-repeat;
+}
+
+
+/* buttons */
+[class^='btn-'], [class*=' btn-'] {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	border: none;
+}
+
+[class^='btn-']:hover, [class*=' btn-']:hover {
+	text-decoration: none;
+}
+
+
+/* carets */
+[class^='caret-'], [class*=' caret-'] {
+	display: inline-block;
+	vertical-align: middle;
+	content: '';
+	width: 0;
+	height: 0;
+	border: 4px solid transparent;
+}
+
+.caret-top {
+	border-bottom: 4px solid #000;
+}
+
+.caret-bottom {
+	border-top: 4px solid #000;
+}
+
+.caret-left {
+	border-right: 4px solid #000;
+}
+
+.caret-right {
+	border-left: 4px solid #000;
+}
+
+
+/* dropdown */
+.dropdown {
+	position: relative;
+	z-index: 10;
+}
+
+.dropdown.open {
+	z-index: 100;
+}
+
+.dropdown-toggle {
+	display: inline-block;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.dropdown-list {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+}
+
+.open .dropdown-list {
+	display: block;
+}
