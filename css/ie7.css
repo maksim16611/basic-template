@@ -1,3 +1,4 @@
+/* improve image rendering */
 img {
 	-ms-interpolation-mode: bicubic;
 }
@@ -11,10 +12,6 @@ button, input[type="button"], input[type="submit"] {
 input[type="checkbox"], input[type="radio"] {
 	width: 13px;
 	height: 13px;
-}
-
-textarea {
-	overflow: auto;
 }
 
 
