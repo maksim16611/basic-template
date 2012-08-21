@@ -12,6 +12,7 @@ body {
 	color: #000;
 	font-family: Arial, sans-serif;
 	font-size: 12px;
+	-webkit-font-smoothing: antialiased;
 	line-height: 18px;
 }
 
