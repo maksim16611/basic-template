@@ -276,6 +276,8 @@ select {
 	position: absolute;
 	top: 100%;
 	left: 0;
+	-webkit-background-clip: padding;
+	background-clip: padding-box;
 }
 
 .open .dropdown-list {

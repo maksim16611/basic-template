@@ -5,6 +5,7 @@ jQuery.fn.dropdown = function(){
 
 		toggler.on('click', function(event){
 			event.preventDefault();
+			event.stopPropagation();
 			if (!me.hasClass('open')){
 				$('.dropdown').removeClass('open');
 			}

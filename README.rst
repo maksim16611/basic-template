@@ -1,4 +1,4 @@
-# basic-template v1.0.1
+# basic-template v1.0.2
 
 ============
 HTML5/CSS template, reset most of browser default styles.
@@ -9,7 +9,7 @@ Compatibility:
 
 * IE 7+
 * Firefox 4+
-* Chrome
+* Chrome/Safari
 * iOS
 * Android
 
