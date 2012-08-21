@@ -45,6 +45,7 @@ ol {
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
+	text-rendering: optimizeLegibility;
 }
 
 h1 {
@@ -103,13 +104,11 @@ sub {
 
 a {
 	color: #08c;
-}
-
-a:link, a:visited, a:active {
 	text-decoration: none;
 }
 
 a:hover {
+	color: #005580;
 	text-decoration: underline;
 }
 
@@ -129,6 +128,7 @@ button, input, textarea, select {
 }
 
 button, input[type="button"], input[type="submit"] {
+	-webkit-appearance: button;
 	cursor: pointer;
 }
 
