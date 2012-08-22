@@ -12,7 +12,7 @@ jQuery.fn.dropdown = function() {
 			me.toggleClass('open');
 		});
 
-		$(window).on('click', function(event){
+		$('html').click(function(event){
 			if (!(event.target.className == 'dropdown-toggle')) {
 				$('.dropdown').removeClass('open');
 			}

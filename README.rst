@@ -1,4 +1,4 @@
-# basic-template v1.0.3
+# basic-template v1.0.4
 
 ============
 HTML5/CSS template, reset most of browser default styles.
