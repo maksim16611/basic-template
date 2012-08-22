@@ -1,4 +1,4 @@
-# basic-template v1.0.4
+# basic-template v1.0.5
 
 ============
 HTML5/CSS template, reset most of browser default styles.
@@ -17,7 +17,7 @@ Advantages
 ==========
 
 * separate CSS files with IE 7-9 common hacks
-* reset default styles for form elements (margins, padding, borders)
+* reset default styles for form elements (margins, padding, borders etc.)
 
 jQuery plugins included
 ==============================

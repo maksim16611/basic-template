@@ -1,3 +1,17 @@
+/* custom fonts */
+@font-face {
+	font-family: 'FontName';
+	src: url('FontName.eot');
+	src: url('FontName.eot?#iefix') format('embedded-opentype'),
+	url('FontName.woff') format('woff'),
+	url('FontName.ttf') format('truetype'),
+	url('FontName.svg#FontName') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/* common */
 html, body {
 	min-height: 100%;
 }
