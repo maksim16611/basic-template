@@ -208,8 +208,6 @@ select {
 [class^='icon-'], [class*=' icon-'] {
 	display: inline-block;
 	vertical-align: middle;
-	width: 16px;
-	height: 16px;
 	background-repeat: no-repeat;
 }
 
@@ -276,6 +274,7 @@ select {
 	position: absolute;
 	top: 100%;
 	left: 0;
+	background-color: #fff;
 	-webkit-background-clip: padding;
 	background-clip: padding-box;
 }

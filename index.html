@@ -16,12 +16,12 @@
 	<script type="text/javascript">
 		$(function(){
 			// drop-down list toggling
-			if($.fn.dropdown !== undefined) {
+			if ($.fn.dropdown !== undefined) {
 				$('.dropdown').dropdown();
 			}
 
 			// include https://github.com/danielstocks/jQuery-Placeholder plugin
-			if($.fn.placeholder !== undefined) {
+			if ($.fn.placeholder !== undefined) {
 				$('input[placeholder], textarea[placeholder]').placeholder();
 			}
 		});
@@ -29,7 +29,21 @@
 </head>
 <body>
 
-<div class="layout"></div>
+<div class="layout">
+
+	<div class="dropdown">
+		<a class="dropdown-toggle" href="#">Dropdown</a>
+		<ul class="dropdown-list">
+			<li><a href="#">Some link</a></li>
+			<li>Some copy</li>
+		</ul>
+	</div>
+	<!-- /dropdown example -->
+
+	<input type="text" placeholder="Placeholder copy">
+	<!-- /placeholder example -->
+
+</div>
 <!-- /layout -->
 
 </body>

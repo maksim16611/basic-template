@@ -1,4 +1,4 @@
-# basic-template v1.0.2
+# basic-template v1.0.3
 
 ============
 HTML5/CSS template, reset most of browser default styles.
@@ -19,8 +19,10 @@ Advantages
 * separate CSS files with IE 7-9 common hacks
 * reset default styles for form elements (margins, padding, borders)
 
-Useful jQuery plugins included
+jQuery plugins included
 ==============================
 
-* cross-browser [placeholder] attribute using with https://github.com/danielstocks/jQuery-Placeholder
+* cross-browser [placeholder] attribute using jQuery-Placeholder__
 * drop-down list toggling (on click event)
+
+__ https://github.com/danielstocks/jQuery-Placeholder
