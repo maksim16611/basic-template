@@ -265,34 +265,3 @@ select {
 .caret-right {
 	border-left: 4px solid #000;
 }
-
-
-/* dropdown */
-.dropdown {
-	position: relative;
-	z-index: 10;
-}
-
-.dropdown.open {
-	z-index: 100;
-}
-
-.dropdown-toggle {
-	display: inline-block;
-	vertical-align: middle;
-	cursor: pointer;
-}
-
-.dropdown-list {
-	display: none;
-	position: absolute;
-	top: 100%;
-	left: 0;
-	background-color: #fff;
-	-webkit-background-clip: padding;
-	background-clip: padding-box;
-}
-
-.open .dropdown-list {
-	display: block;
-}

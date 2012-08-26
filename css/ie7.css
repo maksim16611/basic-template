@@ -16,7 +16,7 @@ input[type="checkbox"], input[type="radio"] {
 
 
 /* inline-block */
-.dropdown-toggle {
+.inlineBlockElement {
 	display: inline;
 	zoom: 1;
 }
