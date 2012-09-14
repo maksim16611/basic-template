@@ -1,4 +1,3 @@
-# Basic-template
 HTML/CSS template, reset most of browser default styles.
 
 ## Browser support
